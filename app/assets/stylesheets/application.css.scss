@@ -9,13 +9,17 @@ header {
 	background: #ff9;
 	color: #060;
 	border-bottom: 2px solid;
-	text-align: start;
-	vertical-align: center;
 	height: 60px;
 
-	img {
+	#banner {
+		font: 20px/60px verdana,serif;
+		text-align: center;
+		margin-left: 150px;
 		display: inline;
-		float: center;
+
+		img {
+			float: left;
+		}
 	}
 	
 /* Navigation */
@@ -25,7 +29,8 @@ header {
 		padding: 0em 0.5em 0em 0em;
 		white-space: nowrap;
 		display: block;
-		margin-top: 0px;
+		margin-top: 35px;
+		color: #060;
 		
 		ul {
 			margin: 0;
@@ -43,4 +48,10 @@ header {
 			}
 		}
 	}
+}
+
+.round {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
 }
