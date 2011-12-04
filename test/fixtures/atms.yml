@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  atm_code: MyString
+  atm_address: MyString
+  atm_city: MyString
+
+two:
+  atm_code: MyString
+  atm_address: MyString
+  atm_city: MyString

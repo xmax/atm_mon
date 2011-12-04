@@ -1,5 +1,9 @@
 AtmMon::Application.routes.draw do
-  resources :atm_devices
+  resources :atms
+  
+  root :to => 'atms#index'
+  
+  match '/help', :to => 'pages#help'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

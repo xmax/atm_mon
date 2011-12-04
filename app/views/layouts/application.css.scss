@@ -1,0 +1,57 @@
+/*
+ *= require_self
+ *= require_tree .
+*/
+
+header {
+	padding-top: 0px;
+	display: block;
+	background: #ff9;
+	font: small-caps 30px/60px "Times New Roman", serif;
+	color: #060;
+	border-bottom: 2px solid;
+	text-align: left;
+	vertical-align: center;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	height: 60px;
+
+	#banner {
+		img {
+			position: absolute;
+			margin-top: 0px;
+			margin-left: 0px;
+			display: inline;
+			float: center;
+		}
+	}
+	
+	header_text {
+		text-align: center;
+		padding-left: 100px;
+	}
+
+/* Navigation */
+
+	nav {
+		float: right;
+		display: block;
+		margin-top: -50px;
+		
+		ul {
+			margin: 0;
+			padding: 0;
+			
+			li {
+				list-style-type: none;
+				display: inline-block;
+				padding: 0.2em 0;
+				
+				a {
+					padding: 0 5px;
+					font-weight: bold;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,27 @@
+<h1>Listing atms</h1>
+
+<table>
+  <tr>
+    <th>Atm code</th>
+    <th>Atm address</th>
+    <th>Atm city</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @atms.each do |atm| %>
+  <tr>
+    <td><%= atm.atm_code %></td>
+    <td><%= atm.atm_address %></td>
+    <td><%= atm.atm_city %></td>
+    <td><%= link_to 'Show', atm %></td>
+    <td><%= link_to 'Edit', edit_atm_path(atm) %></td>
+    <td><%= link_to 'Destroy', atm, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Atm', new_atm_path %>

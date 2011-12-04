@@ -1,0 +1,15 @@
+// Place all the styles related to the atms controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.atms {
+	margin: 0;
+
+	.entry {
+		overflow: auto;
+		margin: 0em;
+		border-bottom: 1px dotted #f00; //ccc;
+		min-height: 100px;
+	}
+
+}

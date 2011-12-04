@@ -20,8 +20,10 @@ end
 gem 'jquery-rails'
 gem 'therubyracer'
 
+gem 'will_paginate'
+
 # To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'bcrypt-ruby', '~> 3.0.0'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -34,5 +36,7 @@ gem 'therubyracer'
 
 group :test do
   # Pretty printed test output
-  gem 'turn', '0.8.2', :require => false
+  gem 'minitest'
+  gem 'turn', :require => false
 end
+

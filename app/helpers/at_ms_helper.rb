@@ -1,0 +1,2 @@
+module AtMsHelper
+end
