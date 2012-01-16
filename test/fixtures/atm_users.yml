@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  UserFirstName: MyString
+  UserLastName: MyString
+  UserActiveBegin: 2012-01-16 21:55:34
+  UserActiveEnd: 2012-01-16 21:55:34
+
+two:
+  UserFirstName: MyString
+  UserLastName: MyString
+  UserActiveBegin: 2012-01-16 21:55:34
+  UserActiveEnd: 2012-01-16 21:55:34

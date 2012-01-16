@@ -45,6 +45,11 @@ header {
 					padding: 0 5px;
 					font-weight: bold;
 				}
+				a.active {
+					padding: 0 5px;
+					font-weight: bold;
+					color: #f00;
+				}
 			}
 		}
 	}

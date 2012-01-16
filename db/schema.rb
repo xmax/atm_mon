@@ -11,7 +11,34 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111204080417) do
+ActiveRecord::Schema.define(:version => 20120116195534) do
+
+  create_table "atm_audits", :force => true do |t|
+    t.integer  "atm_id"
+    t.datetime "inkass_time"
+    t.datetime "inkass_time_end"
+    t.integer  "cas_a"
+    t.integer  "cas_b"
+    t.integer  "cas_c"
+    t.integer  "cas_d"
+    t.integer  "cas_e"
+    t.integer  "cas_f"
+    t.integer  "cas_g"
+    t.integer  "cas_h"
+    t.integer  "atm_denom_id"
+    t.integer  "atm_user_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "atm_users", :force => true do |t|
+    t.string   "user_first_name"
+    t.string   "user_last_name"
+    t.datetime "user_active_begin"
+    t.datetime "user_active_end"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "atms", :force => true do |t|
     t.string   "atm_code"
